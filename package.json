@@ -2,7 +2,7 @@
   "name": "ruedamatic-editor",
   "version": "8.0.0",
   "author": "rc <rcurzon12@gmail.com>",
-  "description": "edits the data files for rueda caller ruedamatic editor, and rm-spot - rueda calls for spotify",
+  "description": "manages the data files for rueda caller ruedamatic editor, and rm-spot - rueda calls for spotify",
   "license": "tba",
   "main": "./dist/electron/main.js",
   "scripts": {

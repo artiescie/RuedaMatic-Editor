@@ -27,7 +27,7 @@ npm run build
 
 #### Root folder, build:
  - npm build includes <strong><em>fixdate.sh</strong></em>, which updates the build date in SystemInformation.vue
-    - depends on linux bash, replace-in-file package from npm, installed globally
+    - depends on (gnu) bash, plust the package "replace-in-file" from npm, installed globally
 
 ---
 
