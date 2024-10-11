@@ -1,0 +1,10 @@
+{
+  "description": "template for metadata file for Ruedamatic schemes",
+  "providedBy": {
+    "provider": "Template Provider",
+    "providedByURL": "http://come2think.com"
+  },
+  "infoUrls": [
+    {"url": "https://templateURL","desc": "template URL description"}
+  ]
+}

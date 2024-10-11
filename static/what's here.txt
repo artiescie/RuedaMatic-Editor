@@ -1,0 +1,20 @@
+Third party tools supporting RuedaMatic.
+
+ffmpegLocal.exe - renamed from standard ffmpeg.exe
+ - USE:
+ - calculate md5 of a song file, excluding metadata tags like title, artist, lyrics, etc.  Constant even if metadata changes.
+ - when you load a song, and create beats and a call sequence, they will contain the filename and md5 signature of the song.
+ - then when you later load a Music file, RM looks for beats and call sequence files with the same file name.
+ - then it compares the embedded md5 signatures with the music file, recalculating it as the song is loaded.
+ - if the md5 doesn't agree, normally we won't load the beats and call sequence.
+ - but you can over-ride this in a prompt
+ - RATIONALE:
+ - of course, it will be impossible to use a beats file prepared for a different music recording of the same song: the timing is off.
+ - and even if the music file is the same recording, but remastered, likely there will be a different lead-in pause, putting off the timing.
+ - timba music is not just a metronome, it has a lot of expression... intending for the dancers to respond appropriately.
+ - So the call sequence SHOULD also be matched to the song it was made for.
+ 
+
+recycle-bin.exe from https://github.com/sindresorhus/recycle-bin
+ - Move files and folders to the Windows recycle bin
+ 
